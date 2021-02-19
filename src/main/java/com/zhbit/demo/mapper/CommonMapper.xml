@@ -1,0 +1,8 @@
+<mapper namespace="com.zhbit.demo.pojo.Stu">
+
+    <!--id方法名-->
+    <select id="Login" resultType="String" parameterType="long">
+        select sname from stu where sno=#{sno};
+    </select>
+
+</mapper>
